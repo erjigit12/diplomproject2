@@ -32,7 +32,7 @@ class CoWorkersName extends StatelessWidget {
               ),
             ),
             const Text(
-              "QR – это сокращение от Quick Response, что означает «быстрый отклик»",
+              "QR – бул Quick Response деп чечмеленет,«бат кируу» дегенди билдирет",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w300,
