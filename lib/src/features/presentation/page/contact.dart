@@ -115,7 +115,13 @@ class Contact extends StatelessWidget {
             ),
             const SizedBox(height: 15),
             CardContactContainer(
-              onTap: () async {},
+              onTap: () async {
+                const url =
+                    'https://api.whatsapp.com/send/?phone=%2B996772499996&text&type=phone_number&app_absent=0';
+                if (await canLaunch(url)) {
+                  await launch(url);
+                }
+              },
               title: "Анонимдуу кат куржун",
               subTitle: "Студенттер учун",
               svg: "assets/svg/student.svg",

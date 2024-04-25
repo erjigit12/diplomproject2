@@ -95,7 +95,7 @@ class _MenuPageState extends State<MenuPage> {
                   ),
                 );
               },
-              color: const Color(0xFF5C1ED7),
+              color: const Color(0xFFCC78EA),
               title: "ИСТОРИЯ КАФЕДРЫ",
               // subTitle: "Introduction",
             ),
@@ -108,7 +108,7 @@ class _MenuPageState extends State<MenuPage> {
                   ),
                 );
               },
-              color: const Color(0xFFCC78EA),
+              color: const Color(0xFF5C1ED7),
               title: "СЛУЖБА, ЦЕЛИ И ЗАДАЧИ ОТДЕЛА",
               // subTitle: "Jobs and School",
             ),
@@ -121,7 +121,7 @@ class _MenuPageState extends State<MenuPage> {
                   ),
                 );
               },
-              color: const Color(0xFF5C1ED7),
+              color: const Color(0xFFCC78EA),
               title: "ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ",
               // subTitle: "Jobs and School",
             ),
@@ -134,7 +134,7 @@ class _MenuPageState extends State<MenuPage> {
                   ),
                 );
               },
-              color: const Color(0xFFCC78EA),
+              color: const Color(0xFF5C1ED7),
               title: "НАУЧНЫЕ РАБОТЫ КАФЕДРЫ",
               // subTitle: "Jobs and School",
             ),
@@ -148,16 +148,16 @@ class _MenuPageState extends State<MenuPage> {
                   ),
                 );
               },
-              color: const Color(0xFF5C1ED7),
+              color: const Color(0xFFCC78EA),
               title: "НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ ДЕЯТЕЛЬНОСТЬ СТУДЕНТОВ",
               // subTitle: "Jobs and School",
             ),
-            MenuTapWidget(
-              onTap: () {},
-              color: const Color(0xFFCC78EA),
-              title: "СПИСОК ВЫПУСКНИКОВ",
-              // subTitle: "Jobs and School",
-            ),
+            // MenuTapWidget(
+            //   onTap: () {},
+            //   color: const Color(0xFFCC78EA),
+            //   title: "СПИСОК ВЫПУСКНИКОВ",
+            //   // subTitle: "Jobs and School",
+            // ),
             MenuTapWidget(
               onTap: () {
                 Navigator.push(
